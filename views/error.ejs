@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8d7da;
+            color: #721c24;
+            margin: 0;
+        }
+        .error-container {
+            text-align: center;
+            border: 1px solid #f5c6cb;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #f8d7da;
+        }
+        .error-container h1 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>Incorrect Credentials</h1>
+        <p>Please check your username and password and try again. Make sure you are using your mobile phone.</p>
+        <p><%= error %></p>
+    </div>
+</body>
+</html>
+
